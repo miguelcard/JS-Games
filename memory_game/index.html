@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
     <h2>Memory Game!</h2>
 </head>
 <body>
-    
+    <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document -->
+    <!-- Later with this span tag we can refer to this piece of html is JS by its id -->
+    <h2>Flipped Pairs: <span id="flipped"></span></h2>
+    <h2>Tries: <span id="score"></span></h2>
+    <h3></h3>
+    <div id="grid"> <!-- could also use class here-->
+    </div>
+
+    <script src="app.js" charset="utf-8"></script> <!-- this at end means that once all html elements are read, then the script can be reaf-->
 </body>
 </html>
