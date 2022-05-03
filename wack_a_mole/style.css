@@ -1,0 +1,17 @@
+#grid {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 98px;
+    width: 98px;
+    border: solid black 1px;
+}
+
+.moleClass{
+    background-image: url('images/ice-cream.png');
+    background-size: cover;
+}
