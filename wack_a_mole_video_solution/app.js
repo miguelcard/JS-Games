@@ -24,7 +24,7 @@ squares.forEach(square => {
     if (square.id == hitPosition) {
       result++
       score.textContent = result
-      hitPosition = null
+      hitPosition = null            // nice solution, by using this it does not have to remove the event listener 
     }
   })
 })
